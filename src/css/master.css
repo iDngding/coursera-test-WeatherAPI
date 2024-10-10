@@ -1,0 +1,45 @@
+body {
+  background-color: #d7d7d7;
+  color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  width: 100%;
+}
+
+/* 主内容区域 */
+.content {
+  flex: 1;
+}
+
+/* 设置 footer 的样式 */
+footer {
+    background-color: #f8f9fa; /* 浅灰背景 */
+    text-align: center; /* 文本居中 */
+    padding: 10px 0; /* 上下内边距 */
+
+}
+
+/* 设置版权文本的样式 */
+.copyright-text {
+  font-size: 14px; /* 可选：设置字体大小 */
+  color: #333; /* 可选：设置字体颜色 */
+}
+
+.date-title {
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.weather-title {
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+
+.mt-4 {
+  margin-bottom: 20px;
+}
